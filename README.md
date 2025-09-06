@@ -12,6 +12,8 @@ ve model için hazır hale getirilmesini içermektedir.
    
 2. Gerekli Kütüphaneler için : 
    pip install -r requirments.txt
-3. Jupyter Notebook üzerinden PusulaTask_YunusEmre_Dal.ipynb dosyasını indirin. 
+3. Jupyter Notebook üzerinden PusulaTask_YunusEmre_Dal.ipynb dosyasını indirin.
+   İndirdikten sonra projeyi çalıştırabilirsiniz. 
+
 
 
