@@ -14,3 +14,4 @@ ve model için hazır hale getirilmesini içermektedir.
    pip install -r requirments.txt
 3. Jupyter Notebook üzerinden PusulaTask_YunusEmre_Dal.ipynb dosyasını indirin. 
 
+
