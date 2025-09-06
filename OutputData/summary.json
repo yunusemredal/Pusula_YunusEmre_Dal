@@ -1,0 +1,299 @@
+{
+  "HastaNo": {
+    "dtype": "int64",
+    "missing": "0",
+    "missing_pct": 0.0,
+    "unique": 404,
+    "sample": [
+      145134,
+      145135,
+      145136,
+      145137,
+      145138
+    ],
+    "mean": 145333.1,
+    "std": 115.214,
+    "min": "145134",
+    "25%": 145235.0,
+    "50%": 145331.0,
+    "75%": 145432.0,
+    "max": "145537"
+  },
+  "Yas": {
+    "dtype": "int64",
+    "missing": "0",
+    "missing_pct": 0.0,
+    "unique": 75,
+    "sample": [
+      60,
+      28,
+      65,
+      61,
+      52
+    ],
+    "mean": 47.327,
+    "std": 15.209,
+    "min": "2",
+    "25%": 38.0,
+    "50%": 46.0,
+    "75%": 56.0,
+    "max": "92"
+  },
+  "Cinsiyet": {
+    "dtype": "object",
+    "missing": "169",
+    "missing_pct": 7.562,
+    "unique": 2,
+    "sample": [
+      "Kadın",
+      "Erkek"
+    ],
+    "top_values": {
+      "Kadın": 1274,
+      "Erkek": 792
+    }
+  },
+  "KanGrubu": {
+    "dtype": "object",
+    "missing": "675",
+    "missing_pct": 30.201,
+    "unique": 8,
+    "sample": [
+      "0 Rh+",
+      "A Rh+",
+      "B Rh+",
+      "B Rh-",
+      "AB Rh+"
+    ],
+    "top_values": {
+      "0 Rh+": 579,
+      "A Rh+": 540,
+      "B Rh+": 206,
+      "AB Rh+": 80,
+      "B Rh-": 68,
+      "A Rh-": 53,
+      "0 Rh-": 26,
+      "AB Rh-": 8
+    }
+  },
+  "Uyruk": {
+    "dtype": "object",
+    "missing": "0",
+    "missing_pct": 0.0,
+    "unique": 5,
+    "sample": [
+      "Türkiye",
+      "Tokelau",
+      "Azerbaycan",
+      "Libya",
+      "Arnavutluk"
+    ],
+    "top_values": {
+      "Türkiye": 2173,
+      "Tokelau": 27,
+      "Arnavutluk": 13,
+      "Azerbaycan": 12,
+      "Libya": 10
+    }
+  },
+  "KronikHastalik": {
+    "dtype": "object",
+    "missing": "611",
+    "missing_pct": 27.338,
+    "unique": 220,
+    "sample": [
+      "Becker Musküler Distrofisi, Hiportiroidizm, Kalp yetmezliği",
+      "Duchenne Musküler Distrofisi, Myastenia gravis, Becker Musküler Distrofisi, Hipertansiyon",
+      "Hiportiroidizm, Diyabet, Duchenne Musküler Distrofisi, Kalp yetmezliği",
+      "Hiportiroidizm, Fascioscapulohumeral Distrofi, Duchenne Musküler Distrofisi, Diyabet",
+      "Diyabet, Myastenia gravis, Aritmi"
+    ],
+    "top_values": {
+      "Myastenia gravis": 38,
+      "Aritmi": 36,
+      "Fascioscapulohumeral Distrofi": 36,
+      "Hipertiroidizm": 34,
+      "Limb-Girdle Musküler Distrofi, Astım": 34,
+      "Kalp yetmezliği": 33,
+      "Hipertansiyon": 31,
+      "Astım": 30,
+      "Becker Musküler Distrofisi": 29,
+      "Limb-Girdle Musküler Distrofi": 28
+    }
+  },
+  "Bolum": {
+    "dtype": "object",
+    "missing": "11",
+    "missing_pct": 0.492,
+    "unique": 10,
+    "sample": [
+      "Fiziksel Tıp Ve Rehabilitasyon,Solunum Merkezi",
+      "İç Hastalıkları",
+      "Ortopedi Ve Travmatoloji",
+      "Kardiyoloji",
+      "Kalp Ve Damar Cerrahisi"
+    ],
+    "top_values": {
+      "Fiziksel Tıp Ve Rehabilitasyon,Solunum Merkezi": 2045,
+      "Ortopedi Ve Travmatoloji": 88,
+      "İç Hastalıkları": 32,
+      "Nöroloji": 17,
+      "Kardiyoloji": 11,
+      "Göğüs Hastalıkları": 8,
+      "Laboratuar": 7,
+      "Genel Cerrahi": 6,
+      "Tıbbi Onkoloji": 6,
+      "Kalp Ve Damar Cerrahisi": 4
+    }
+  },
+  "Alerji": {
+    "dtype": "object",
+    "missing": "944",
+    "missing_pct": 42.237,
+    "unique": 38,
+    "sample": [
+      "TOZ",
+      "POLEN,NOVALGIN",
+      "NOVALGIN",
+      "Polen",
+      "Toz"
+    ],
+    "top_values": {
+      "Polen": 198,
+      "POLEN": 134,
+      "Toz": 119,
+      "ARVELES,CORASPIN": 102,
+      "Sucuk": 91,
+      "NOVALGIN": 90,
+      "Polen,Yer Fıstığı": 83,
+      "TOZ": 74,
+      "SUCUK": 73,
+      "Novalgin": 49
+    }
+  },
+  "Tanilar": {
+    "dtype": "object",
+    "missing": "75",
+    "missing_pct": 3.356,
+    "unique": 367,
+    "sample": [
+      "Ayak bileği ve ayağın yüzeysel yaralanması",
+      "Omuzun darbe sendromu,DORSALJİ, DİĞER, SERVİKOTORASİK BÖLGE",
+      "Parapleji ve tetrapleji",
+      "Artroz, tanımlanmamış, el",
+      "Trokanterik bursit"
+    ],
+    "top_values": {
+      "DORSALJİ, DİĞER, LUMBOSAKRAL BÖLGE": 149,
+      "Omuzun darbe sendromu": 128,
+      "İntervertebral disk bozuklukları, tanımlanmamış": 116,
+      "DORSALJİ, DİĞER, SERVİKOTORASİK BÖLGE": 96,
+      "Eklem ağrısı": 51,
+      "DORSALJİ, DİĞER, SERVİKAL BÖLGE": 49,
+      "Radikülopati": 37,
+      "Dorsalji, tanımlanmamış": 32,
+      "Menisküs yırtığı, şimdiki": 30,
+      "Ortopedik eklem implantı": 29
+    }
+  },
+  "TedaviAdi": {
+    "dtype": "object",
+    "missing": "0",
+    "missing_pct": 0.0,
+    "unique": 244,
+    "sample": [
+      "Ayak Bileği",
+      "Dorsalji -Boyun+trapez+skapular",
+      "Parapleji",
+      "El rehabilitasyonu",
+      "El rehabilitasyonu-El Rehabilitasyonu"
+    ],
+    "top_values": {
+      "Dorsalji -Boyun+trapez": 231,
+      "İV DİSK BOZUKLUĞU-BEL": 200,
+      "Dorsalji 1": 140,
+      "Dorsalji-Bel": 120,
+      "Gonartroz-Meniskopati": 95,
+      "SAĞ OMUZ İMPİNGEMENT": 70,
+      "Boyun-Trapezz": 60,
+      "Dorsalji-Dorsal": 56,
+      "Sol omuz İmpingement": 50,
+      "Alt ekstremite atrofi-Bilateral": 37
+    }
+  },
+  "TedaviSuresi": {
+    "dtype": "object",
+    "missing": "0",
+    "missing_pct": 0.0,
+    "unique": 23,
+    "sample": [
+      "5 Seans",
+      "15 Seans",
+      "10 Seans",
+      "18 Seans",
+      "20 Seans"
+    ],
+    "top_values": {
+      "15 Seans": 1670,
+      "10 Seans": 175,
+      "20 Seans": 113,
+      "2 Seans": 45,
+      "17 Seans": 36,
+      "4 Seans": 35,
+      "16 Seans": 27,
+      "18 Seans": 20,
+      "21 Seans": 20,
+      "5 Seans": 17
+    }
+  },
+  "UygulamaYerleri": {
+    "dtype": "object",
+    "missing": "221",
+    "missing_pct": 9.888,
+    "unique": 37,
+    "sample": [
+      "Ayak Bileği",
+      "Boyun",
+      "Boyun,Sırt",
+      "Sol El Bilek Bölgesi",
+      "Kalça"
+    ],
+    "top_values": {
+      "Bel": 528,
+      "Boyun": 363,
+      "Diz": 177,
+      "Sol Omuz Bölgesi": 137,
+      "Sağ Omuz Bölgesi": 127,
+      "Sol El Bilek Bölgesi": 83,
+      "Sırt": 75,
+      "Sağ Ayak Bileği Bölgesi": 61,
+      "Sol Ayak Bileği Bölgesi": 58,
+      "Tüm Vücut Bölgesi": 58
+    }
+  },
+  "UygulamaSuresi": {
+    "dtype": "object",
+    "missing": "0",
+    "missing_pct": 0.0,
+    "unique": 10,
+    "sample": [
+      "20 Dakika",
+      "5 Dakika",
+      "30 Dakika",
+      "15 Dakika",
+      "10 Dakika"
+    ],
+    "top_values": {
+      "20 Dakika": 1535,
+      "5 Dakika": 360,
+      "10 Dakika": 221,
+      "15 Dakika": 89,
+      "30 Dakika": 11,
+      "45 Dakika": 10,
+      "25 Dakika": 5,
+      "40 Dakika": 2,
+      "3 Dakika": 1,
+      "8 Dakika": 1
+    }
+  }
+}

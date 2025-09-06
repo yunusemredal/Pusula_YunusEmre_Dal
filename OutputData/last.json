@@ -1,0 +1,160 @@
+{
+  "shape": {
+    "rows": 2235,
+    "cols": 13
+  },
+  "numeric_columns": [
+    "HastaNo",
+    "Yas"
+  ],
+  "categorical_columns": [
+    "Cinsiyet",
+    "KanGrubu",
+    "Uyruk",
+    "KronikHastalik",
+    "Bolum",
+    "Alerji",
+    "Tanilar",
+    "TedaviAdi",
+    "TedaviSuresi",
+    "UygulamaYerleri",
+    "UygulamaSuresi"
+  ],
+  "missing": {
+    "HastaNo": 0,
+    "Yas": 0,
+    "Cinsiyet": 169,
+    "KanGrubu": 675,
+    "Uyruk": 0,
+    "KronikHastalik": 611,
+    "Bolum": 11,
+    "Alerji": 944,
+    "Tanilar": 75,
+    "TedaviAdi": 0,
+    "TedaviSuresi": 0,
+    "UygulamaYerleri": 221,
+    "UygulamaSuresi": 0
+  },
+  "data_types": {
+    "HastaNo": "int64",
+    "Yas": "int64",
+    "Cinsiyet": "object",
+    "KanGrubu": "object",
+    "Uyruk": "object",
+    "KronikHastalik": "object",
+    "Bolum": "object",
+    "Alerji": "object",
+    "Tanilar": "object",
+    "TedaviAdi": "object",
+    "TedaviSuresi": "object",
+    "UygulamaYerleri": "object",
+    "UygulamaSuresi": "object"
+  },
+  "Numeric_Stats": {
+    "HastaNo": {
+      "count": 2235.0,
+      "mean": 145333.10022371364,
+      "std": 115.21424818843306,
+      "min": 145134.0,
+      "25%": 145235.0,
+      "50%": 145331.0,
+      "75%": 145432.0,
+      "max": 145537.0,
+      "skew": 0.018325128876854085
+    },
+    "Yas": {
+      "count": 2235.0,
+      "mean": 47.32706935123043,
+      "std": 15.208634290589435,
+      "min": 2.0,
+      "25%": 38.0,
+      "50%": 46.0,
+      "75%": 56.0,
+      "max": 92.0,
+      "skew": 0.07375440903731091
+    }
+  },
+  "Korelasyon_Matrix": {
+    "HastaNo": {
+      "HastaNo": 1.0,
+      "Yas": -0.3009644577083348
+    },
+    "Yas": {
+      "HastaNo": -0.3009644577083348,
+      "Yas": 1.0
+    }
+  },
+  "target": {
+    "missing": 0,
+    "describe": null
+  },
+  "pipeline_final": {
+    "generated_files": {
+      "summary_json": "OutputData\\summary.json",
+      "eda_last_json": "OutputData\\last.json",
+      "cleaned_csv": "OutputData\\cleaned.csv",
+      "model_ready_csv": "OutputData\\model_ready.csv",
+      "model_ready_csv_upper": "OutputData\\MODEL_READY.csv",
+      "plots_dir": "OutputData\\Plots"
+    },
+    "multilabel_features": {
+      "KronikHastalik": [
+        "Myastenia gravis",
+        "Hiportiroidizm",
+        "Aritmi",
+        "Limb-Girdle Musküler Distrofi",
+        "Hipertiroidizm",
+        "Astım",
+        "Duchenne Musküler Distrofisi",
+        "Kalp yetmezliği",
+        "Fascioscapulohumeral Distrofi",
+        "Hipertansiyon",
+        "Becker Musküler Distrofisi",
+        "Diyabet",
+        "Polimiyozit",
+        "Guatr",
+        "Hipotirodizm"
+      ],
+      "Alerji": [
+        "Polen",
+        "POLEN",
+        "Toz",
+        "TOZ",
+        "NOVALGIN",
+        "Sucuk",
+        "CORASPIN",
+        "ARVELES",
+        "Yer Fıstığı",
+        "Novalgin",
+        "SUCUK",
+        "GRİPİN",
+        "VOLTAREN",
+        "GRIPIN",
+        "Voltaren",
+        "Volteren"
+      ],
+      "Tanilar": [
+        "DORSALJİ",
+        "DİĞER",
+        "tanımlanmamış",
+        "LUMBOSAKRAL BÖLGE",
+        "İntervertebral disk bozuklukları",
+        "Omuzun darbe sendromu",
+        "SERVİKOTORASİK BÖLGE",
+        "SERVİKAL BÖLGE",
+        "Eklem ağrısı",
+        "diğer",
+        "Dorsalji",
+        "Menisküs yırtığı",
+        "şimdiki",
+        "Fibromiyalji",
+        "Radikülopati",
+        "Gonartroz [diz ekleminin artrozu]",
+        "Kondromalazia patella",
+        "Boyun ağrısı",
+        "birden fazla yer",
+        "Ekstremite ağrısı"
+      ]
+    }
+  }
+}
